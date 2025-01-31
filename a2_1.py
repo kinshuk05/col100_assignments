@@ -5,6 +5,7 @@ sum=0
 
 if not cipher.isdigit():
   sys.exit()
+  
 for i in range (len(cipher)):
     sum+=int(cipher[i])
 
